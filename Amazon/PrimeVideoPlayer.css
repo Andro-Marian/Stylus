@@ -6,34 +6,41 @@
 @author       Andro Marian
 ==/UserStyle== */
 
-@-moz-document domain("www.primevideo.com") {
-.fkpovp9 {
-  opacity: 0 !important;
-}
+@-moz-document domain("www.primevideo.com")
+{
+    .fkpovp9 {
+      opacity: 0 !important;
+    }
 
-.f2ptdfh {
-  opacity: 0 !important;
-}
+    .f2ptdfh {
+      opacity: 0 !important;
+    }
 
-.f1du2jpu {
-    height: 2vw;
-}
+    .f1du2jpu {
+        height: 2vw;
+    }
 
-.f1d63tv1 {
-  opacity: 1;
-}
+    .f1d63tv1 {
+      opacity: 1;
+    }
 
-.f1aiijcp {
-  flex: 0;
-}
+    .f1aiijcp {
+      flex: 0;
+    }
 
-.fw80uk2 {
-    z-index: 1;
-    display: flex !important;
-    align-items: end;
-}
+    .fw80uk2 {
+        z-index: 1;
+        display: flex !important;
+        align-items: end;
+    }
+        /*  */
+    /*.f7j034j, .f1makowq {*/
+    .f8hspre, .f1makowq,
+    .f10i0hvc, .fvtlr3b {
+        background: transparent !important;
+    }
 
-/*.fvjm8ow {
-  display: none !important;
-}*/
+    /*.fvjm8ow {
+      display: none !important;
+    }*/
 }
