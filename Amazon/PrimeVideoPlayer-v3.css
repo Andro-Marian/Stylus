@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name         Amazon Prime Video Player
+@version      20240428.20.06
+@namespace    https://userstyles.world/user/Andro-Marian
+@description  A better video player interface
+@author       Andro Marian
+==/UserStyle== */
+
+@-moz-document domain("www.primevideo.com"), domain("www.amazon.com")
+{
+    .fkpovp9 {
+      opacity: 0 !important;
+    }
+
+    .f2ptdfh {
+      opacity: 0 !important;
+    }
+
+    .f1du2jpu {
+        height: 2vw;
+    }
+
+    .f1d63tv1 {
+      opacity: 1;
+    }
+
+    .f1aiijcp {
+      flex: 0;
+    }
+
+    .fw80uk2 {
+        z-index: 1;
+        display: flex !important;
+        align-items: end;
+    }
+        /*  */
+    /*.f7j034j, .f1makowq {*/
+    .f8hspre, .f1makowq,
+    .f10i0hvc, .fvtlr3b {
+        background: transparent !important;
+    }
+    
+    .f1uu0k0l {
+        height: 2.0vw !important;
+    }
+    .f1ur2l64 {
+        width: 2.0vw !important;
+    }
+    .fyn2rr8 {
+        padding-top: 3.0vw !important;
+        padding-bottom: 2.0vw !important;
+    }
+
+    /*.fvjm8ow {
+      display: none !important;
+    }*/
+}
