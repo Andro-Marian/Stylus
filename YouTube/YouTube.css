@@ -6,7 +6,7 @@
 @author       Andro Marian
 ==/UserStyle== */
 
-@-moz-document domain("www.primevideo.com")
+@-moz-document domain("www.youtube.com")
 {
     #contentContainer.tp-yt-app-drawer[swipe-open]::after {
         display: none;
