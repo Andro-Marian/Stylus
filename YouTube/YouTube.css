@@ -1,0 +1,18 @@
+#contentContainer.tp-yt-app-drawer[swipe-open]::after {
+    display: none;
+}
+
+.ytp-panel-menu {
+    display: block;
+}
+
+.ytp-menuitem:not(.ytp-menuitem-with-footer) {
+    display: flex;
+    align-items: center;
+    height: 30px !important;
+    border-radius: 4px;
+}
+
+.ytp-menuitem-label {
+    flex: 1;
+}
