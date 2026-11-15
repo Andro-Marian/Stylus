@@ -1,0 +1,32 @@
+@-moz-document url-prefix("https://www.youtube.com/watch") {
+ytd-watch-flexy[full-bleed-player] #full-bleed-container.ytd-watch-flexy {
+    max-height: calc(100vh - 56px) !important;
+    min-height: 0px !important;
+}
+ytd-watch-flexy[fullscreen] #full-bleed-container.ytd-watch-flexy {
+    max-height: none !important;
+}
+
+body:has(ytd-watch-flexy[theater]) {
+    --responsive: true
+}
+
+@container style(--responsive: true) {
+    #content > #frosted-glass[class*="none"] + #masthead-container {
+        transform: translateY(calc(-100% + 16px));
+        opacity: 0;
+    }
+    #content > #frosted-glass[class*="none"] + #masthead-container:hover {
+        background-color: #111;
+        transform: none;
+        opacity: 1;
+    }
+    #content:has(> #frosted-glass[class*="none"]) > #page-manager {
+        margin: 0 !important;
+    }
+    
+    #content:has(> #frosted-glass[class*="none"]) #full-bleed-container {
+        max-height: calc(100vh) !important;
+    }
+}
+}
