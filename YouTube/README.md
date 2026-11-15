@@ -1,5 +1,5 @@
 # YouTubeSmallMenu
-- Makes the menu smaller
+- Makes the menu smaller  
 ![](https://github.com/Andro-Marian/Stylus/blob/main/YouTube/YtMenuSmaller.png?raw=true)
 
 # YouTubeFullStretch
